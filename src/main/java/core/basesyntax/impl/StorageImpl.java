@@ -43,7 +43,6 @@ public class StorageImpl<K, V> implements Storage<K, V> {
         return size;
     }
 
-
     private int indexOfKey(K key) {
         for (int i = 0; i < size; i++) {
             K currentKey = (K) keys[i];
